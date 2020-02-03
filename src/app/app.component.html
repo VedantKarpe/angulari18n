@@ -1,1 +1,12 @@
 <h1 i18n>Testing this content for internationalization</h1>
+
+<p>Today is {{today | date}}</p>
+<p>Today is {{today | date: 'short'}}</p>
+<p>Today is {{today | date: 'shortDate'}}</p>
+<p>Or if you prefer, {{today | date:'fullDate'}}</p>
+<p>The time is {{today | date:'h:mm a z'}}</p>
+
+<p> Serve the application in a different language.</p>
+<p> Use the command ng s --configuration=de</p>
+<p> Currently configured only for German language</p>
+<p> The above pipes would be modified as per the selected locale</p>
